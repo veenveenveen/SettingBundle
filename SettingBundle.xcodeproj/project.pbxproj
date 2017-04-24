@@ -12,6 +12,7 @@
 		E298CF771EADE116008EAD78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E298CF751EADE116008EAD78 /* Main.storyboard */; };
 		E298CF791EADE116008EAD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E298CF781EADE116008EAD78 /* Assets.xcassets */; };
 		E298CF7C1EADE116008EAD78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E298CF7A1EADE116008EAD78 /* LaunchScreen.storyboard */; };
+		E298CF841EADE239008EAD78 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E298CF831EADE239008EAD78 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E298CF781EADE116008EAD78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E298CF7B1EADE116008EAD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E298CF7D1EADE116008EAD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E298CF831EADE239008EAD78 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E298CF711EADE116008EAD78 /* AppDelegate.swift */,
 				E298CF731EADE116008EAD78 /* ViewController.swift */,
+				E298CF831EADE239008EAD78 /* Settings.bundle */,
 				E298CF751EADE116008EAD78 /* Main.storyboard */,
 				E298CF781EADE116008EAD78 /* Assets.xcassets */,
 				E298CF7A1EADE116008EAD78 /* LaunchScreen.storyboard */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E298CF841EADE239008EAD78 /* Settings.bundle in Resources */,
 				E298CF7C1EADE116008EAD78 /* LaunchScreen.storyboard in Resources */,
 				E298CF791EADE116008EAD78 /* Assets.xcassets in Resources */,
 				E298CF771EADE116008EAD78 /* Main.storyboard in Resources */,

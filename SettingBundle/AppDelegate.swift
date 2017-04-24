@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //程序启动之后的一些自定义设置
+        let defaults = ["rank": "Ensign"]
+        UserDefaults.standard.register(defaults: defaults)
+        
         return true
     }
 
